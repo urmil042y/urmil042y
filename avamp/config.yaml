@@ -1,0 +1,17 @@
+app:
+  name: AVAMP
+  environment: development
+
+scope:
+  allowed_cidrs: []
+  allowed_domains: []
+
+scheduler:
+  interval_minutes: 60
+  prevent_overlap: true
+
+integrations:
+  shodan_api_key: ""
+  censys_api_id: ""
+  censys_api_secret: ""
+  nvd_api_key: ""
