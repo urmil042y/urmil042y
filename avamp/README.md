@@ -54,3 +54,7 @@ avamp/
 - Add CVE enrichment adapters (NVD/Vulners).
 - Implement HTML/PDF report renderer and delivery integrations.
 - Add authentication, RBAC, and audit logging for operator actions.
+
+## Ethical API Privacy Research Tool
+
+This repo now includes `avamp/research/tool.py`, an OWASP-aligned defensive research utility for authorized lab validation of social app authentication and recovery anti-enumeration controls. It compares status codes, timing, message semantics, OTP/CAPTCHA hints, and rate-limit behavior while using randomized delays, retries, and structured logs.
